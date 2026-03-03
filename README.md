@@ -44,8 +44,8 @@ for panel in panels:
 
 ## Examples
 
-| Genetics | Potency | Multi-omics |
-|:--------:|:-------:|:-----------:|
+| | | |
+|:---:|:---:|:---:|
 | ![](https://raw.githubusercontent.com/Jianhua-Wang/figpanel/main/examples/images/demo_genetics.png) | ![](https://raw.githubusercontent.com/Jianhua-Wang/figpanel/main/examples/images/demo_potency.png) | ![](https://raw.githubusercontent.com/Jianhua-Wang/figpanel/main/examples/images/demo_multiomics.png) |
 
 > Blue boxes = detected subplots, Green boxes = detected captions. Images from open-access papers ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).

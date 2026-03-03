@@ -3,7 +3,7 @@
 **Detect and extract individual panels from scientific figures using YOLOv12.**
 
 [![PyPI](https://img.shields.io/pypi/v/figpanel?color=blue)](https://pypi.org/project/figpanel/)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-yellow)](https://huggingface.co/plottie/figpanel-yolov12)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-yellow)](https://huggingface.co/mermermer/figpanel-yolov12)
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-green)](https://www.gnu.org/licenses/agpl-3.0)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Plottie/figpanel/blob/main/examples/demo.ipynb)
 [![Plottie](https://img.shields.io/badge/Built%20by-Plottie-purple)](https://plottie.art)
@@ -53,7 +53,7 @@ for panel in panels:
 ## Features
 
 - **YOLOv12 Detection** - Trained on 5,000+ annotated scientific figures to detect subplots and caption labels
-- **Automatic Model Download** - Model weights are hosted on [HuggingFace](https://huggingface.co/plottie/figpanel-yolov12) and downloaded automatically on first use
+- **Automatic Model Download** - Model weights are hosted on [HuggingFace](https://huggingface.co/mermermer/figpanel-yolov12) and downloaded automatically on first use
 - **OCR Caption Reading** - Reads single-character panel labels (a, b, c...) using Tesseract
 - **Smart Matching** - Greedy nearest-neighbor algorithm matches captions to their corresponding subplots
 - **Deduplication** - Removes duplicate panels using perceptual hashing (pHash) and ORB feature matching
@@ -68,7 +68,7 @@ for panel in panels:
 | Training Data | 5,000+ annotated figures from open-access journals |
 | Model Size | ~18 MB |
 | Input | Any image (PNG, JPEG, etc.) |
-| Hosted On | [HuggingFace](https://huggingface.co/plottie/figpanel-yolov12) |
+| Hosted On | [HuggingFace](https://huggingface.co/mermermer/figpanel-yolov12) |
 
 ## Installation Options
 

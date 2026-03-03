@@ -7,7 +7,7 @@ from ultralytics import YOLO
 
 logger = logging.getLogger("figpanel")
 
-_MODEL_REPO = "plottie/figpanel-yolov12"
+_MODEL_REPO = "mermermer/figpanel-yolov12"
 _MODEL_FILE = "v4.pt"
 
 _model = None

@@ -55,7 +55,7 @@ Homepage = "https://plottie.art"
 Repository = "https://github.com/Plottie/figpanel"
 Documentation = "https://github.com/Plottie/figpanel#readme"
 "Bug Tracker" = "https://github.com/Plottie/figpanel/issues"
-"Model Card" = "https://huggingface.co/plottie/figpanel-yolov12"
+"Model Card" = "https://huggingface.co/mermermer/figpanel-yolov12"
 
 [tool.hatch.build.targets.wheel]
 packages = ["figpanel"]

@@ -38,6 +38,14 @@ The model was trained on 5,000+ annotated figures from open-access scientific jo
 | Classes | 2 (`subplot`, `caption`) |
 | Framework | [Ultralytics](https://github.com/ultralytics/ultralytics) |
 
+## Examples
+
+| Genetics | Potency | Multi-omics |
+|:--------:|:-------:|:-----------:|
+| ![](https://raw.githubusercontent.com/Plottie/figpanel/main/examples/images/demo_genetics.png) | ![](https://raw.githubusercontent.com/Plottie/figpanel/main/examples/images/demo_potency.png) | ![](https://raw.githubusercontent.com/Plottie/figpanel/main/examples/images/demo_multiomics.png) |
+
+> Blue boxes = detected subplots, Green boxes = detected captions. Images from open-access papers ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
+
 ## How to Use
 
 Install the Python package:

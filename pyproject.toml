@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "figpanel"
-version = "0.1.0"
+version = "0.1.1"
 description = "Detect and extract individual panels from scientific figures using YOLOv12"
 readme = "README.md"
 license = "AGPL-3.0-only"

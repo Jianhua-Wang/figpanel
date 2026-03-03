@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "figpanel: Scientific Figure Panel Detector"
+message: "If you use figpanel in your research, please cite it as below."
+type: software
+authors:
+  - name: Plottie
+    website: https://plottie.art
+repository-code: https://github.com/Plottie/figpanel
+url: https://plottie.art
+license: AGPL-3.0-only
+version: 0.1.0
+date-released: "2026-03-03"
+keywords:
+  - scientific-figures
+  - subplot-detection
+  - panel-detection
+  - yolov12
+  - computer-vision

@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "figpanel"
+version = "0.1.0"
+description = "Detect and extract individual panels from scientific figures using YOLOv12"
+readme = "README.md"
+license = "AGPL-3.0-only"
+requires-python = ">=3.9"
+authors = [
+    { name = "Plottie", email = "hello@plottie.art" },
+]
+keywords = [
+    "scientific-figures",
+    "subplot-detection",
+    "panel-detection",
+    "figure-segmentation",
+    "yolov12",
+    "object-detection",
+    "computer-vision",
+    "bioinformatics",
+    "scientific-publishing",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+    "ultralytics>=8.0.0",
+    "huggingface-hub>=0.20.0",
+    "Pillow>=9.5.0",
+    "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+full = [
+    "pytesseract>=0.3.10",
+    "imagehash>=4.3.1",
+    "opencv-python>=4.7.0",
+]
+
+[project.urls]
+Homepage = "https://plottie.art"
+Repository = "https://github.com/Plottie/figpanel"
+Documentation = "https://github.com/Plottie/figpanel#readme"
+"Bug Tracker" = "https://github.com/Plottie/figpanel/issues"
+"Model Card" = "https://huggingface.co/plottie/figpanel-yolov12"
+
+[tool.hatch.build.targets.wheel]
+packages = ["figpanel"]
